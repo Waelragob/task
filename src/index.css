@@ -1,0 +1,52 @@
+body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  body.dark {
+    background-color: rgba(0, 0, 0, 0.871);
+    color: white;
+  }
+  /* وضع الضوء */
+.navbar.light {
+     /* لون الخلفية */
+    color: black; /* لون النص */
+  }
+  
+  .navbar.light .navbar-brand,
+  .navbar.light .nav-link {
+    color: black; /* لون نص العلامة والرابط */
+  }
+  
+  /* وضع الظلام */
+  .navbar.dark {
+     /* لون الخلفية */
+    color: white; /* لون النص */
+  }
+  
+  .navbar.dark .navbar-brand,
+  .navbar.dark .nav-link {
+    color: white; /* لون نص العلامة والرابط */
+  }
+  *{
+    font-weight: bold;
+  }
+  .button{
+    display: flex
+;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+
+  }
+  .btn-voice ,
+  .btn-more{
+    padding:10px;
+    gap:10px;
+    width:256px;
+    height: 51px;
+    border-radius: 8px;
+
+
+  }
